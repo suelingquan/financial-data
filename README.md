@@ -41,32 +41,21 @@ financial-data/
     │   │   └── README.md
     │   │
     │   ├── 03_股票估值数据/
-    │   │   ├── valuation_2018.csv
-    │   │   ├── valuation_2019.csv
-    │   │   ├── valuation_20200101_20201201.csv
-    │   │   ├── valuation_20201201_20211001.csv
-    │   │   ├── valuation_20211001_20220801.csv
-    │   │   ├── valuation_20220801_20230501.csv
-    │   │   ├── valuation_20230501_20240201.csv
-    │   │   ├── valuation_20240201_20241101.csv
-    │   │   ├── valuation_20241101_20250701.csv
-    │   │   ├── valuation_20250701_20260301.csv
-    │   │   ├── valuation_20260301_20260529.csv
-    │   │   └── README.md
+    │   │   ├── valuation.zip
     │   │
-    │   └── 04_辅助数据/
+    │   └─
     │       ├── THRFACDAT_WEEKLY.csv      # Fama-French周三因子
     │       ├── RESSET_BDSHIBOR.csv       # 隔夜Shibor
     │       ├── 000300.SH.csv             # 沪深300指数
     │       └── README.md
     │
-    ├── 01_处理后数据/
+    ├── _处理后数据/
     │   ├── processed_data.zip            # 完整数据（分卷压缩）
     │   ├── processed_data.z01
     │   ├── processed_data.z02
     │   └── README.md
     │
-    └── 02_实证结果/
+    └── 
         ├── WML策略周度收益率序列/
         │   ├── wml_4w.csv
         │   ├── wml_8w.csv
